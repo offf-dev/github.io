@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Дия</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
-    <h1>Hello!!</h1>
+    <div class="wrapper" id="wrapper" data-slide="0">
+        <div class="slider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1">
+
+                    </div>
+                    <div class="swiper-slide slide2">
+                    </div>
+                    <div class="swiper-slide slide3">
+                        <div class="title">Закордонний паспорт</div>
+                        <div class="info">
+                            <figure>
+                                <img src="images/photo.jpg">
+                            </figure>
+                            <div>
+                                <div class="date">Дата народження: <br>22.02.1986</div>
+                                <div class="num">Номер: <br>FJ665563</div>
+                                <div class="sign">
+                                    <img src="images/sign.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-info">
+                            <div class="name">
+                                Єнєнков <br>Олександр <br>Володимирович
+                            </div>
+                            <button>...</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide4">
+                    </div>
+                    <div class="swiper-slide slide5">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
     <script src="js/app.js"></script>
 </body>
 </html>

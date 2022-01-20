@@ -1,9 +1,9 @@
 const staticCacheName = 'app-static-data';
 
 const assetUrls = [
-    'index.html',
-    './js/app.js',
-    './css/styles.css'
+    // 'index.html',
+    // './js/app.js',
+    // './css/styles.css'
 ];
 
 self.addEventListener('install', async event => {

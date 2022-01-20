@@ -10,3 +10,17 @@ window.addEventListener('load', async () => {
         }
     }
 });
+
+var wrapper = document.getElementById('wrapper');
+var swiper = new Swiper(".mySwiper", {
+    centeredSlides: true,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+    spaceBetween: 14,
+    on: {
+        slideChange: function (e) {
+            wrapper.dataset.slide = e.activeIndex;
+        }
+    },
+});
