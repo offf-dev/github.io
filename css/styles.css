@@ -49,7 +49,6 @@ body {
     transform: scale(0.88);
     -webkit-transform-origin: right;
     transform-origin: right;
-    box-shadow: 0 0 10px 0 black;
 }
 .slider .swiper-slide-next {
     -webkit-transform: scale(0.88);
@@ -58,6 +57,9 @@ body {
     transform-origin: left;
 }
 .slider .swiper-slide {
+    opacity: 1;
+    will-change: transform;
+    transform: scale(1);
     overflow: hidden;
     border-radius: 10px;
     -webkit-transition: background-color 0.4s, -webkit-transform 0.25s ease-in;
@@ -137,3 +139,6 @@ body {
     padding-right: 40px;
     margin-bottom: 24px;
 }
+
+
+
