@@ -44,13 +44,13 @@ body {
     max-width: 304px;
     margin: 0 auto;
 }
-.slider .swiper-slide-prev {
+.slider .swiper-slide.swiper-slide-prev {
     -webkit-transform: scale(0.88);
     transform: scale(0.88);
     -webkit-transform-origin: right;
     transform-origin: right;
 }
-.slider .swiper-slide-next {
+.slider .swiper-slide.swiper-slide-next {
     -webkit-transform: scale(0.88);
     transform: scale(0.88);
     -webkit-transform-origin: left;
