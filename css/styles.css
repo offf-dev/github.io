@@ -25,7 +25,7 @@ body {
     max-height: 100vh;
 }
 [data-slide="0"] {background-color: rgb(187,242,175);}
-[data-slide="0"] {background-color: blueviolet;}
+[data-slide="0"] {background-color: cornflowerblue;}
 [data-slide="1"] {background-color: rgb(191,236,181);}
 [data-slide="2"] {background-color: rgb(116,180,216);}
 [data-slide="3"] {background-color: rgb(222,199,217);}
