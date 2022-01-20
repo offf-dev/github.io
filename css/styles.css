@@ -59,6 +59,7 @@ body {
 .slider .swiper-slide {
     opacity: 1;
     will-change: transform;
+    -webkit-transform: scale(1);
     transform: scale(1);
     overflow: hidden;
     border-radius: 10px;
