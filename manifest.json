@@ -1,6 +1,7 @@
 {
   "name": "Diya App",
   "short_name": "Diya",
+  "theme_color": "transparent",
   "background_color": "#A3ECB5",
   "display": "standalone",
   "orientation": "portrait",
