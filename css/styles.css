@@ -49,6 +49,7 @@ body {
     transform: scale(0.88);
     -webkit-transform-origin: right;
     transform-origin: right;
+    box-shadow: 0 0 10px 0 black;
 }
 .slider .swiper-slide-next {
     -webkit-transform: scale(0.88);

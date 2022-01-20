@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@capacitor/status-bar": "^1.0.7",
+    "react-native-transparent-status-and-navigation-bar": "^1.0.3",
     "swiper": "^7.4.1"
   }
 }
