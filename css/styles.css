@@ -17,15 +17,19 @@ body {
     font-family: Littera;
     font-weight: 500;
 }
+img {
+    display: block;
+    max-width: 100%;
+}
 .wrapper {
     width: 360px;
     height: 640px;
     transition: background-color 0.4s;
     overflow: hidden;
     max-height: 100vh;
+    position: relative;
 }
 [data-slide="0"] {background-color: rgb(187,242,175);}
-[data-slide="0"] {background-color: cornflowerblue;}
 [data-slide="1"] {background-color: rgb(191,236,181);}
 [data-slide="2"] {background-color: rgb(116,180,216);}
 [data-slide="3"] {background-color: rgb(222,199,217);}
@@ -141,6 +145,52 @@ body {
     padding-right: 40px;
     margin-bottom: 24px;
 }
+header {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    left: 24px;
+    top: 41px;
+    right: 34px;
+}
+header .logo {
+    width: 48px;
+}
+header .qr {
+    width: 20px;
+}
+.slider-hint {
+    text-align: center;
+    margin: 11px;
+    font-size: 15px;
+}
+nav {
+    position: absolute;
+    bottom: 16px;
+    left: 6px;
+    right: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+nav .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    font-size: 13px;
+    text-align: center;
+}
+nav .item .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+    width: 30px;
+}
+nav .item img {
 
+}
 
 
