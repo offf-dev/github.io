@@ -79,16 +79,32 @@ img {
 .slider .swiper-pagination-bullet-active {
     background-color: #010100;
 }
+.slide2 {
+    display: flex;
+    flex-direction: column;
+}
+.slide2 {
+    padding: 28px 18px 17px 18px;
+}
+.slide1,
 .slide3 {
     padding: 28px 15px 30px 15px;
 }
+.slide1 .info figure {
+    border: 2px solid #C6E4C0;
+}
 .slide3 .info figure {
     border: 2px solid #61B0CE;
+}
+.slide1 .info figure,
+.slide3 .info figure {
+
     width: 135px;
     flex-shrink: 0;
     height: 171px;
     margin-right: 17px;
 }
+.slide1 .info figure img,
 .slide3 .info figure img {
     display: block;
     width: 100%;
@@ -103,42 +119,99 @@ img {
 .slide3 .info .num {
     margin-bottom: 30px;
 }
+.slide1 .info .date {
+    margin-bottom: 8px;
+}
+.slide1 .info .exp {
+    margin-bottom: 8px;
+}
 .slide3 .info .date {
     margin-bottom: 16px;
 }
+.slide1 .info {
+    font-size: 14px;
+    line-height: 1.1;
+    border-bottom: 2px solid #C6E4C0;
+}
+.slide2 .info {
+    font-size: 11px;
+    line-height: 1.1;
+    border-bottom: 2px solid #C6E4C0;
+    flex-grow: 1;
+}
+.slide3 .info {
+    font-size: 15px;
+    line-height: 0.95;
+    border-bottom: 2px solid #61B0CE;
+}
+.slide2 .info dt {
+    width: 60px;
+    margin-right: 33px;
+}
+.slide2 .info dl {
+    display: flex;
+    margin-bottom: 4px;
+}
+.slide1 .info,
 .slide3 .info {
     display: flex;
-    font-size: 15px;
+
     width: 100%;
-    line-height: 0.95;
+
     padding-right: 20px;
     margin-bottom: 14px;
     padding-bottom: 26px;
-    border-bottom: 2px solid #61B0CE;
+
 }
+.slide2 .main-info button {
+    right: 3px;
+    width: 21px;
+    height: 21px;
+    font-size: 24px;
+    letter-spacing: -3px;
+    bottom: 10px;
+}
+.slide1 .main-info button,
+.slide3 .main-info button {
+    right: 1px;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    letter-spacing: -2px;
+    bottom: 0;
+}
+.slide1 .main-info button,
+.slide2 .main-info button,
 .slide3 .main-info button {
     position: absolute;
     background: none;
     border: 2px solid currentColor;
-    right: 1px;
-    bottom: 0;
-    width: 28px;
-    height: 28px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
     line-height: 1;
     padding-bottom: 15px;
-    letter-spacing: -2px;
     text-align: center;
     padding-right: 2px;
 }
+.slide2 .main-info {
+    font-size: 20px;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 14px;
+}
+.slide1 .main-info,
 .slide3 .main-info {
     font-size: 21px;
     position: relative;
 }
+.slide2 .title {
+    font-size: 21px;
+    line-height: 0.95;
+    margin-bottom: 12px;
+}
+.slide1 .title,
 .slide3 .title {
     font-size: 25px;
     line-height: 0.95;
