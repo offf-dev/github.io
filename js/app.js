@@ -21,6 +21,15 @@ var swiper = new Swiper(".mySwiper", {
     on: {
         slideChange: function (e) {
             wrapper.dataset.slide = e.activeIndex;
+        },
+        tap: function (swiper, event) {
+            console.log(swiper.clickedSlide.classList.toggle('flipped'))
+        },
+        transitionEnd: function (swiper) {
+            var prevSlide = document.querySelector('.swiper-slide-prev'),
+                nextSlide = document.querySelector('.swiper-slide-next');
+            prevSlide.classList.remove('flipped')
+            nextSlide.classList.remove('flipped')
         }
     },
 });
