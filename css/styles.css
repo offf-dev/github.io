@@ -3,7 +3,7 @@
     --device-height: 640px;
     --slider-width: 304px;
     --slider-offset: 104px; /* offset from top to slider */
-    --slider-pagination-bottom: 82px;  /* offset from bottom to pagination */
+    --slider-pagination-bottom: 75px;  /* offset from bottom to pagination */
 
     --slider-scale: 0.88;
     --slider-gap: calc(var(--slider-width) * (1 - var(--slider-scale)) / 2);
